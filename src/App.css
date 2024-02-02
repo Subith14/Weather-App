@@ -1,38 +1,132 @@
-.App {
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1601/Winter_trees_snow_forest-Landscapes_HD_Wallpaper_1366x768.jpg);
+  background-position: center;
+  background-size:  cover;
+  background-repeat: no-repeat;
+  font-family: 'Kanit', sans-serif;
+  
+}
+.App{
+  border: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  height: 650px;
+  margin: 3%;
+ margin-left: 13%;
+ background-color:rgb(255, 255, 255,0.3);
+ border-radius: 25px;
+ box-shadow: 0px 0px 25px 0 black;
+}
+.head{
+  transform: translateY(50%);
+color: crimson;
+  
+}
+
+.city{
+  margin-top: 3%;
+  font-size: 350%;
+  color: tomato;
+}
+.condition{
+  display: flex;
+  align-items: center;
+justify-content: center;
+text-align: center;
+}
+.condition h3{
+margin-top: 3%;
+font-size: 200%;
+}
+.condition p{
+margin-top: 2%;
+}
+.condition img{
+width: 10%;
+
+}
+.container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.row1{
+  border: none;
+  width: 20%;
+  height: 100px;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0,0.6);
+  color: white;
+  box-shadow: 0px 0px 20px 0 rgb(0, 0, 0);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row1 p{
+  margin-top: 7%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.degree p{
+font-size: 200%;
+font-weight: bolder;
+
+}
+@media only screen and (max-width:730px) {
+
+  body{
+   
+    background-size:  cover;
+    background-position: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  width:300% ;
+  margin-left: -100%;
+ height: 100px;
+margin-top: 30%;
+}
+.row1{
+  margin-top: 3%;
+  text-align: center;
+}
+.row1 p{
+  transform: translateY(-30%);
+}
+.row1 h2{
+transform: translateY(-30%);
+}
+.head{
+  transform: translateY(30%);
+color: crimson;
+  
+}
+.App{
+  height: 620px;
+  overflow-x: hidden;
+}
+.city{
+  font-size: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
